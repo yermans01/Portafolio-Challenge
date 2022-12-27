@@ -1,0 +1,41 @@
+.exp__fila{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.exp__col{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.exp__entrada {
+    display: flex;
+    width: 90%;
+    margin-bottom: 3em; 
+}
+.exp__imagen{
+    width: 100%; 
+}
+.exp__imagen img{
+    max-width: 100%;
+}
+.exp__desc{
+    margin-left: 50px;
+}
+.exp__desc h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: auto;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Roboto", Arial, sans-serif; 
+}
+.exp__desc span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400; 
+}
+.exp__desc span small i {
+    color: #999999; 
+}

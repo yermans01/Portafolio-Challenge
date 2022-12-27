@@ -1,0 +1,120 @@
+.formacion__fila{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.formacion__col{
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+.formacion__contenido {
+	position: relative;
+	margin-bottom: 30px; 
+}
+  
+.formacion__contenido:before, .formacion__contenido:after {
+	content: " ";
+	display: table; 
+}
+  
+.formacion__contenido:after {
+	clear: both; 
+}
+  
+.formacion__contenido:before, .formacion__contenido:after {
+	content: " ";
+	display: table; 
+}
+  
+.formacion__contenido:after {
+	clear: both; 
+}
+  
+.formacion__contenido:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 4px;
+	background: #EEEEEE;
+	top: 20px;
+	bottom: 20px;
+	margin-left: 29px; 
+}
+  
+.formacion__contenido .formacion__inicio {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	clear: both; 
+}
+  
+.formacion__contenido .formacion__inicio .formacion__tiempo {
+	position: relative;
+	margin-left: -20px; 
+}
+  
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__icono {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: #2c98f0;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0 0 0 5px #f2f3f7;
+	line-height: 40px;
+	float: left; 
+}
+
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__icono i {
+	color: #EEEEEE; 
+}
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__icono.color-2 {
+	background: #ec5453; 
+}
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__icono.color-3 {
+	background: #f9bf3f; 
+}
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__icono.color-no {
+	background: #EEEEEE;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px; 
+}
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__academica {
+	position: relative;
+	padding: 1.5em;
+	margin-left: 60px;
+	background-clip: padding-box; }
+  
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__academica:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9px 9px 9px 0;
+	border-color: transparent #f2f3f7 transparent transparent;
+	left: 0;
+	top: 10px;
+	margin-left: -9px; 
+}
+  
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__academica p + p {
+	margin-top: 15px; 
+}
+  
+.formacion__contenido .formacion__inicio .formacion__tiempo .formacion__academica h2 {
+	font-size: 20px;
+	font-family: "Quicksand", Arial, sans-serif;
+	font-weight: 500; 
+}
+  
+  .formacion__contenido .formacion__inicio .formacion__tiempo .formacion__academica h2 span {
+	opacity: .5;
+	filter: alpha(opacity=40);
+	font-size: 16px;
+	background-color: black;
+}
+  
